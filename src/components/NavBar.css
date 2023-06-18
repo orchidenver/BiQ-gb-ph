@@ -9,8 +9,9 @@
 }
 
 .navbar {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 90%;
   height: 7vh;
@@ -34,10 +35,12 @@
 }
 
 .cart {
+  position: absolute;
+  right: 0;
   border: transparent;
   background-color: transparent;
   cursor: pointer;
-  height: 100%;
+  height: auto;
   padding: 0;
   width: 60px;
 }

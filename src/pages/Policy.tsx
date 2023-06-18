@@ -104,10 +104,10 @@ export default function Policy() {
         <Divider margin="20px 0" />
         <p className="policy-head">Contact Us</p>
         <p className="policy-text">
-          f you have any questions, concerns, or requests regarding this Privacy
-          Policy, don't hesitate to contact us at [contact information]. By
-          using our website, you acknowledge that you have read, understood, and
-          agreed to the terms of this Privacy Policy.
+          If you have any questions, concerns, or requests regarding this
+          Privacy Policy, don't hesitate to contact us at [contact information].
+          By using our website, you acknowledge that you have read, understood,
+          and agreed to the terms of this Privacy Policy.
         </p>
       </section>
     </>
