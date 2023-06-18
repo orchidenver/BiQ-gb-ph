@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  width: 195px;
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  color: #152236;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+p {
+  padding: 10px 15px;
+}
+
+.img-demo {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.product-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 20px 15px;
+  font-family: "StolzlBook";
+}
+
+.product-info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 55px;
+}
+
+.bold {
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  color: #152236;
+  font-size: 20px;
+}
+.gray {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  color: #15223680;
+  font-size: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.moto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding-left: 15px;
+  margin: 0;
+}
+
+li {
+  font-size: 13px;
+}

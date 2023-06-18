@@ -1,0 +1,39 @@
+.text-block-header {
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  font-size: 24px;
+  padding: 0px 15px;
+  color: #152236;
+  margin-bottom: 15px;
+}
+
+.text-block-paragraph {
+  font-family: "StolzlBook";
+  color: #152236;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0 15px;
+}
+
+li {
+  font-family: "StolzlBook";
+  color: #152236;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.list-block-paragraph {
+  font-family: "StolzlBook";
+  color: #152236;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 0;
+}
+
+.list-block-paragraph:first-child {
+  margin-bottom: 0;
+}
+
+ul + .list-block-paragraph {
+  margin-top: 0;
+}

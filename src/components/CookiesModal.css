@@ -1,0 +1,75 @@
+.cookies {
+  position: fixed;
+  bottom: 4vw;
+  left: 4vw;
+  right: 4vw;
+  height: 40vh;
+  width: 86vw;
+  z-index: 17;
+  border: 1px solid #152236;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 3vw 3vw 3vw;
+  color: #152236;
+  background-color: #fff;
+}
+
+.cookies-header,
+.cookies-text {
+  margin: 0;
+}
+
+.cookies-header {
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  align-self: normal;
+  color: #152236;
+}
+
+.cookies-text {
+  font-family: "StolzlLight";
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 15px;
+  line-height: 20px;
+  color: #152236;
+}
+
+.cookies-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.cookies-btn {
+  width: 100%;
+  height: 35px;
+  border-color: #152236;
+  background-color: #fff;
+  border-radius: 72px;
+  font-family: "StolzlLight";
+  font-weight: 400;
+  font-size: 14px;
+  border-width: 1px;
+}
+
+.cookies-btn.color {
+  background-color: #3a4d66;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.cookies-ref {
+  font-family: "StolzlLight";
+  font-weight: 400;
+  font-size: 14px;
+  color: #91979b;
+  align-self: normal;
+  padding-left: 2px;
+}

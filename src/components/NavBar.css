@@ -1,0 +1,121 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: -10vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 7vh;
+  border: 1px solid #3a4d66;
+  border-radius: 123px;
+  position: fixed;
+  z-index: 10;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-logo {
+  display: block;
+  width: 10vw;
+  height: 7vh;
+}
+
+.navbar-logo img {
+  height: 7vh;
+  width: 10vw;
+}
+
+.cart {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  padding: 0;
+  width: 60px;
+}
+
+.cart img {
+  width: auto;
+  height: 3vh;
+}
+
+.lang-menu {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: #ffffff;
+  opacity: 1;
+  width: 25%;
+  height: 200%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+  box-shadow: 3px 3px 10px 3px rgba(58, 77, 102, 0.1);
+}
+
+.lang {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 15px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lang + .lang {
+  border-top: 1px solid #3a4d66;
+  width: 24px;
+}
+
+.lang-btn {
+  background-color: transparent;
+  border: none;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 55px;
+  color: #3a4d66;
+  cursor: pointer;
+}
+
+.btn-block {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 55px;
+  color: #3a4d66;
+  position: relative;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  width: 12px;
+  height: 100%;
+  left: 60px;
+}

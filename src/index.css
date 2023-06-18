@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "NexaHeavy";
+  src: local("NexaHeavy"), url("./fonts/nexa-heavy.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "StolzlBold";
+  src: local("StolzlBold"), url("./fonts/stolzl_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StolzlBook";
+  src: local("StolzlBook"), url("./fonts/stolzl_book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StolzlLight";
+  src: local("StolzlLight"), url("./fonts/stolzl_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StolzlMedium";
+  src: local("StolzlMedium"),
+    url("./fonts/stolzl_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StolzlRegular";
+  src: local("StolzlRegular"),
+    url("./fonts/stolzl_regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StolzlThin";
+  src: local("StolzlThin"), url("./fonts/stolzl_thin.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "NexaHeavy";
+}
+
+p {
+  font-family: "StolzlBook";
+}

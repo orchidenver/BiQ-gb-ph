@@ -1,0 +1,131 @@
+.footer {
+  background-color: #3a4d66;
+  padding: 25px 20px 30px;
+}
+
+.ref {
+  font-family: "StolzlBook";
+  text-align: center;
+  padding: 0;
+  margin: 5px 0 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  margin: 0;
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  visibility: hidden;
+}
+
+input[type="email"] {
+  height: 40px;
+  background-color: #3a4d66;
+  border: 1px solid #ffffff;
+  border-radius: 72px;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+  font-family: "StolzlBook";
+  font-weight: 300;
+}
+
+input[type="email"]::placeholder {
+  color: #ffffff;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+textarea {
+  background-color: #3a4d66;
+  border: 1px solid #ffffff;
+  border-radius: 19px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "StolzlBook";
+  font-weight: 300;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #ffffff;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+input[type="submit"] {
+  background-color: #ffffff;
+  color: #152236;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 72px;
+  cursor: pointer;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input[type="submit"].success {
+  background-color: #3a4d66;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+input[type="submit"]:hover {
+  background-color: #4a4d4f;
+  color: #ffffff;
+}
+
+input[type="submit"]:focus {
+  background-color: #4a4d4f;
+  color: #ffffff;
+}
+
+input[type="submit"]:disabled {
+  background-color: #3a4d66;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.footer-head {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-policy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+a {
+  color: #ffffff;
+  text-align: center;
+  font-family: "StolzlBook";
+  margin-top: 5px;
+}

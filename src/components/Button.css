@@ -1,0 +1,33 @@
+.button {
+  background-color: #3a4d66;
+  color: #ffffff;
+  height: 45px;
+  border-color: transparent;
+  border-radius: 72px;
+  cursor: pointer;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: #4a4d4f;
+}
+
+.button:focus {
+  background-color: #4a4d4f;
+}
+
+.button-banner {
+  position: absolute;
+  margin-bottom: 7vh;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 20px;
+}

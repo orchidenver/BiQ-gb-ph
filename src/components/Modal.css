@@ -1,0 +1,101 @@
+.modal {
+  width: 80vw;
+  height: 28vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  z-index: 15;
+  border: 1px solid #152236;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  color: #152236;
+}
+
+.modal-head {
+  align-self: start;
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  margin: 0;
+  color: #152236;
+}
+
+.modal-text {
+  margin: 0;
+  font-family: "StolzlLight";
+  font-weight: 400;
+  color: #152236;
+}
+
+.modal-btn {
+  border: 1px solid #152236;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 80%;
+  height: 20%;
+  font-family: "StolzlLight";
+  font-weight: 400;
+}
+
+.modal-btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: transparent;
+  color: #152236;
+}
+
+.modal-form {
+  position: relative;
+}
+
+.modal-form > label {
+  display: none;
+}
+
+#modal-email {
+  border: 1px solid #152236;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 70vw;
+  color: #152236;
+}
+
+#modal-email::placeholder {
+  color: #15223680;
+  font-family: "StolzlLight";
+  font-weight: 400;
+}
+
+.send-btn {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #152236;
+  color: #ffffff;
+}
+
+.send-btn:disabled {
+  background-color: #aab3b8;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 14;
+}

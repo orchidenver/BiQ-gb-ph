@@ -1,0 +1,20 @@
+.policy {
+  margin-top: 10vh;
+  padding: 10px 15px;
+}
+
+.policy-head {
+  color: #3a4d66;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.policy-text {
+  padding: 0;
+  font-family: "StolzlBook";
+  color: #152236;
+  font-size: 13px;
+  line-height: 22px;
+}

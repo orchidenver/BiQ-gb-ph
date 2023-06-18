@@ -1,0 +1,222 @@
+.sidebar {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #333;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  transform: translateX(100vw);
+  transition: all 0.2s;
+  padding-top: 10vh;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+  overflow: hidden;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #000;
+}
+
+.sidebar li:hover {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.sidebar li.active {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.sidebar ul ul {
+  margin-left: 10px;
+}
+
+.sidebar ul ul li {
+  margin-bottom: 5px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 25vh;
+  margin: -20px 0 -20px 0;
+}
+
+.product-name {
+  font-family: "NexaHeavy";
+  font-weight: 900;
+  font-size: 20px;
+  color: #152236;
+}
+
+.product-capacity {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  color: #15223680;
+  font-size: 20px;
+}
+
+.img-container {
+  width: 40vw;
+}
+
+.product-img {
+  width: 100%;
+  max-width: 150px;
+  margin-left: 1vw;
+  object-fit: contain;
+}
+
+.product-img.bottle {
+  height: 20vh;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 35vw;
+}
+
+.product-info p {
+  margin: 0;
+  padding: 0;
+}
+
+.product-desc {
+  height: 50px;
+}
+
+.product-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  border: 1px solid #152236;
+  border-radius: 30px;
+  height: 30px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-amount-btn {
+  border-color: transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  color: #152236;
+  font-size: 20px;
+  padding: 0;
+  width: 25px;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 25vw;
+}
+
+.product-price,
+.amount {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  color: #152236;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.product-price {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  color: #152236;
+}
+
+.product-remove {
+  background-color: transparent;
+  border: transparent;
+  height: 10vh;
+  cursor: pointer;
+  padding-right: 0;
+  margin-left: 6vw;
+  height: 30px;
+  align-self: center;
+}
+
+.product-remove img {
+  height: 20px;
+  width: auto;
+}
+
+.checkout {
+  height: 15vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-btn {
+  width: 90%;
+  height: 5vh;
+  background-color: #3a4d66;
+  border-width: 1px;
+  border-radius: 72px;
+  color: #ffffff;
+  border-color: transparent;
+  margin-top: 10px;
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.checkout-summary {
+  font-family: "StolzlBook";
+  font-weight: 400;
+  font-size: 20px;
+  color: #152236;
+}
+
+.checkout-btn:hover {
+  background-color: #4a4d4f;
+}
+
+.checkout-btn:focus {
+  background-color: #4a4d4f;
+}
+
+.checkout-btn:disabled {
+  background-color: #aab3b8;
+}
