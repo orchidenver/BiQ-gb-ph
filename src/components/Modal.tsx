@@ -13,7 +13,7 @@ export default function Modal({ btnText, open, onClose }: ModalProps) {
   >("");
   const [success, setSuccess] = useState<boolean>(false);
   const navigate = useNavigate();
-  const { openCart, resetOrder, lang } = useAppContext();
+  const { openCart, resetOrder } = useAppContext();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,20 +39,15 @@ export default function Modal({ btnText, open, onClose }: ModalProps) {
     <>
       <div className="overlay" />
       <aside className="modal">
-        <p className="modal-head">
-          {lang === "ENG" ? "Great choice!" : "Doskonały wybór!"}
-        </p>
-        <p
-          className="modal-text"
-          style={{ fontSize: lang === "ENG" ? "16px" : "14px" }}
-        >
-          {lang === "ENG"
-            ? "At the moment this product is out of stock. Please leave your email, and as soon as pure water flows into the bottles, we'll notify you first."
-            : "W tej chwili produkt jest niedostępny. Prosimy podać swój adres e-mail, a jak tylko czysta woda zostanie napełniona do butelek, powiadomimy Cię jako pierwszego."}
+        <p className="modal-head">Great choice!</p>
+        <p className="modal-text" style={{ fontSize: 16 }}>
+          At the moment this product is out of stock. Please leave your email,
+          and as soon as pure water flows into the bottles, we'll notify you
+          first.
         </p>
         {success && (
           <button className="modal-btn" onClick={onClose}>
-            {lang === "ENG" ? "Stay tuned!" : "Bądźcie na bieżąco!"}
+            Stay tuned!
           </button>
         )}
         <button className="modal-btn-close" onClick={onClose}>
@@ -64,11 +59,7 @@ export default function Modal({ btnText, open, onClose }: ModalProps) {
             <input
               type="email"
               id="modal-email"
-              placeholder={
-                lang === "ENG"
-                  ? "Enter your email"
-                  : "Wprowadź swój adres e-mail"
-              }
+              placeholder="Enter your email"
               value={cartEmailValue}
               onChange={(e) => setCartEmailValue(e.target.value)}
             />
