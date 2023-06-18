@@ -61,7 +61,7 @@ export default function Cart({ open }: CartProps) {
             <section className="product-actions">
               <p className="product-price">{`${bottles.totalSum.toFixed(
                 1
-              )} zł`}</p>
+              )} £`}</p>
               <button
                 className="product-remove"
                 onClick={() => removeItem("bottles")}
@@ -107,7 +107,7 @@ export default function Cart({ open }: CartProps) {
             <section className="product-actions">
               <p className="product-price">{`${boxes.totalSum.toFixed(
                 1
-              )} zł`}</p>
+              )} £`}</p>
               <button
                 className="product-remove"
                 onClick={() => removeItem("boxes")}
@@ -122,7 +122,7 @@ export default function Cart({ open }: CartProps) {
       <div className="checkout">
         <div className="checkout-summary">{`Place an order ${totalCartSum.toFixed(
           1
-        )} zł`}</div>
+        )} £`}</div>
         <button
           className="checkout-btn"
           onClick={() => {

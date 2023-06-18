@@ -89,7 +89,7 @@ export default function Shop() {
           <div className="shop-items">
             <div className="shop-item">
               <p className="shop-product">Bottle</p>
-              <p className="shop-price">{`${bottles.price} zł`}</p>
+              <p className="shop-price">{`${bottles.price} £`}</p>
               <div className="shop-count">
                 <button
                   type="button"
@@ -115,7 +115,7 @@ export default function Shop() {
                 <br />
                 <span className="currency">(9 pcs)</span>
               </p>
-              <p className="shop-price">{`${boxes.price} zł`}</p>
+              <p className="shop-price">{`${boxes.price} £`}</p>
               <div className="shop-count">
                 <button
                   type="button"
@@ -137,7 +137,7 @@ export default function Shop() {
           </div>
           <button className="cart-btn" onClick={openCart}>
             <div className="cart-btn-items">
-              <span>{`${totalCartSum.toFixed(1)} zł`}</span>
+              <span>{`${totalCartSum.toFixed(1)} £`}</span>
               <span>Add to cart</span>
             </div>
           </button>
