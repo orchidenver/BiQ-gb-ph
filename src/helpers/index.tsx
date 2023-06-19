@@ -1,4 +1,4 @@
-function getCartLocalStorage() {
+export function getCartLocalStorage() {
   let cart = localStorage.getItem("cart");
 
   if (cart) {
@@ -23,4 +23,18 @@ function getCartLocalStorage() {
   }
 }
 
-export default getCartLocalStorage;
+export function responseHandler(success: boolean, error: boolean): string {
+  if (!success && !error) {
+    return "Send";
+  }
+
+  if (success && !error) {
+    return "Your message has been sent";
+  }
+
+  if (!success && error) {
+    return "Failed to send";
+  }
+
+  return "";
+}

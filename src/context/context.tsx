@@ -5,7 +5,7 @@ import {
   PricesInterface,
   InitialStateInterface,
 } from "../interfaces";
-import getCartLocalStorage from "../helpers";
+import { getCartLocalStorage } from "../helpers";
 
 const prices: PricesInterface = {
   bottles: {

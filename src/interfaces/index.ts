@@ -87,3 +87,8 @@ export interface InitialStateInterface {
   openCart: () => void;
   changePrice: (price: string) => void;
 }
+
+export interface FooterFeedback {
+  email: string;
+  message: string;
+}
