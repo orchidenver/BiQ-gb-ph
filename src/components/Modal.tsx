@@ -112,11 +112,6 @@ export default function Modal({ btnText, open, onClose }: ModalProps) {
         }
       );
 
-      console.log({
-        data,
-        status,
-      });
-
       if (status !== 200 && status !== 201) {
         throw new Error("Something went wrong");
       }

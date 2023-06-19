@@ -79,14 +79,14 @@ export const AppProvider = ({ children }: CartProviderInterface) => {
         name: "Bottle",
         capacity: "1.0",
         quantity: 0,
-        price: 1.6,
+        price: 2.0,
         totalSum: 0,
       },
       boxes: {
         name: "Box",
         capacity: "1.0",
         quantity: 0,
-        price: 9.6,
+        price: 2.0 * 9,
         totalSum: 0,
       },
     });
