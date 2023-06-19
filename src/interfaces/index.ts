@@ -54,14 +54,14 @@ export interface CartInterface {
 export interface PricesInterface {
   bottles: {
     price: {
-      pl: {
+      gb: {
         [name: string]: number;
       };
     };
   };
   boxes: {
     price: {
-      pl: {
+      gb: {
         [name: string]: number;
       };
     };

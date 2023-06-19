@@ -10,19 +10,19 @@ import getCartLocalStorage from "../helpers";
 const prices: PricesInterface = {
   bottles: {
     price: {
-      pl: {
-        "0.3": 3.9,
-        "0.7": 6.7,
-        "1.0": 9.6,
+      gb: {
+        "0.3": 0.9,
+        "0.7": 1.6,
+        "1.0": 2.0,
       },
     },
   },
   boxes: {
     price: {
-      pl: {
-        "0.3": 3.9 * 9,
-        "0.7": 6.7 * 9,
-        "1.0": 9.6 * 9,
+      gb: {
+        "0.3": 0.9 * 9,
+        "0.7": 1.6 * 9,
+        "1.0": 2.0 * 9,
       },
     },
   },
@@ -96,8 +96,8 @@ export const AppProvider = ({ children }: CartProviderInterface) => {
     const { bottles, boxes } = prices;
     const updatedCart: CartInterface = { ...cart };
 
-    updatedCart.bottles.price = Number(bottles.price.pl[price].toFixed(2));
-    updatedCart.boxes.price = Number(boxes.price.pl[price].toFixed(2));
+    updatedCart.bottles.price = Number(bottles.price.gb[price].toFixed(2));
+    updatedCart.boxes.price = Number(boxes.price.gb[price].toFixed(2));
     return;
   }
 
