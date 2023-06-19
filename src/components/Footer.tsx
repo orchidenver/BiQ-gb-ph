@@ -61,7 +61,6 @@ export default function Footer() {
       setSuccess(true);
     } catch (error) {
       setError(true);
-      console.log(error);
     } finally {
       setFooterTextValue("");
       setFooterEmailValue("");

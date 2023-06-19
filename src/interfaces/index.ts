@@ -92,3 +92,25 @@ export interface FooterFeedback {
   email: string;
   message: string;
 }
+
+export interface ItemInOrderInterface {
+  id: string;
+  title: {
+    en: string;
+    pl: string;
+  };
+  type: string;
+  amount: number;
+  price: {
+    en: number;
+    pl: number;
+  };
+  package: string;
+  image: string;
+  count: number;
+}
+
+export interface OrderInterface {
+  cart: ItemInOrderInterface[];
+  email: string;
+}
